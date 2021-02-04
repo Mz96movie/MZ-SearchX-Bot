@@ -145,7 +145,7 @@ class GoogleDriveHelper:
             return "No Result Found :(", None
 
         for content in self.telegraph_content :
-            self.path.append(telegra_ph.create_page(title = 'LoaderX',
+            self.path.append(telegra_ph.create_page(title = 'MZ SearchX',
                                                 html_content=content )['path'])
 
         self.num_of_path = len(self.path)      
